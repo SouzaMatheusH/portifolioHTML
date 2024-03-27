@@ -1,0 +1,12 @@
+footer {
+    height: 5em;
+    width: 100%;
+    color: #fefefe;
+    background-color: #184E77;
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

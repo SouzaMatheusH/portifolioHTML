@@ -27,6 +27,13 @@ svg {
 }
 
 /* CSS */
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+}
+
 .button-74 {
   background-color: #fbeee0;
   border: 2px solid #422800;

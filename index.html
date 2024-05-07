@@ -22,6 +22,28 @@
     <link rel="stylesheet" href="/CSS/main.css">
     <link rel="stylesheet" href="/CSS/article.css">
     <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/projects.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <!-- FORM IMPORTS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+
+    <!-- MAKING RESPONSIVE -->
+    <style>
+    @media (max-width: 1600px) {
+        .desc_container h2 {
+            font-size: 3.5em;
+    }
+    }
+
+    @media (max-width: 1280) {
+        .desc_container h2 {
+            font-size:23em;
+        }
+    }
+    </style>
 
 </head>
 <body>
@@ -36,7 +58,6 @@
                     </svg>
                 </button>
             </a>
-
             <a class="git_link" href="https://github.com/SouzaMatheusH" target="_blank">
                 <button class="button-74" role="button">
                     <svg viewBox="0 0 128 128">
@@ -51,7 +72,7 @@
     <main>
         <div class="main_content">
             <div class="main_text">
-                <h1>FullStack Web Developer - ReactJs + NodeJs</h1>
+                <h1>Web Developer - ReactJs</h1>
                 <p>Cursando Tecnólogo em Análise e Desenvolvimento de Sistemas!</p>
                 <img src="/imgs/mf-avatar.svg" alt="">
             </div>
@@ -63,9 +84,7 @@
     <article class="desc_container">
         <div class="article_text">
             <h2>Olá, meu nome é Matheus Souza!</h2>
-            <p>Desenvolvedor Full Stack experiente com 2 anos de atuação em projetos web. Possuo domínio em linguagens front-end (HTML, CSS, JavaScript) e</p>
-            <p> frameworks como React e NodeJs, além de experiência em back-end com Node.js. Habilidoso em bancos de dados (MySQL) e</p> 
-            <p>na implementação de APIs. Demonstro capacidade de trabalhar de forma autônoma e em equipe, com foco em entrega de resultados e alta qualidade.</p>
+            <p>Desenvolvedor Full Stack com 2 anos de aprendizado em projetos web. Possuo domínio em linguagens front-end (HTML, CSS, JavaScript), biblioteca ReactJs, além de experiência em back-end com NodeJs. Habilidoso em bancos de dados (MySQL) e na implementação de APIs. Demonstro capacidade de trabalhar de forma autônoma e em equipe, com foco em entrega de resultados e alta qualidade.</p>
             <p>Possuo excelente capacidade de aprendizado e estou sempre buscando me atualizar com as mais novas tecnologias do mercado!</p>
             <h2>Habilidades</h2>
             <ul>
@@ -79,6 +98,107 @@
             </ul>
         </div>
     </article>
+
+    <!-- Projetos (5) -->
+        
+    <div class="projetos-container">
+
+        <div class="projeto">
+            <a target="_blank" href="https://cronometro-simples-orpin.vercel.app">
+                <span class="cartao5">
+                    <div class="caixa_cartoes">
+                        <h2>Timer Simples</h2>
+                        <p>Clique para ver!</p>
+                    </div>
+                </span>
+            </a>
+            <div class="descricao">
+                Este é um projeto de cronômetro que fiz utilizando HTML, CSS e JavaScript. Estava no início do meu aprendizado em JavaScript e o objetivo do projeto era praticar funções de alteração do DOM.
+            </div>
+        </div>
+        
+        <div class="projeto">
+            <a target="_blank" href="https://calculadoras-simples.vercel.app/">
+                <span class="cartao">
+                    <div class="caixa_cartoes">
+                        <h2>Calculadoras</h2>
+                        <p>Clique para ver!</p>
+                    </div>
+                </span>
+            </a>
+            <div class="descricao">
+                Um projeto de calculadora simples utilizando HTML, CSS e JS. O projeto foi realizado com o princípio de ter meus primeiros contatos com o JavaScript e não levou muito tempo para ser realizado.
+            </div>
+        </div>
+
+        <div class="projeto">
+            <a target="_blank" href="https://pedra-papel-tesoura-gamma.vercel.app/">
+                <span class="cartao2">
+                    <div class="caixa_cartoes">
+                        <h2>Pedra, Papel e Tesoura</h2>
+                        <p>Clique para ver!</p>
+                    </div>
+                </span>
+            </a>
+            <div class="descricao">
+                Um projeto do jogo Pedra Papel e Tesoura feito em JavaScript. O projeto foi realizado com o objetivo de estudar melhor como funciona a alteração de DOM através da tecnologia.
+            </div>
+        </div>
+
+        <div class="projeto">
+            <a target="_blank" href="https://bouncing-ball-beta.vercel.app/">
+                <span class="cartao3">
+                    <div class="caixa_cartoes">
+                        <h2>Bolinha que Pula</h2>
+                        <p>Clique para ver!</p>
+                    </div>
+                </span>
+            </a>
+            <div class="descricao">
+                Projeto simples de animação, usando HTML E CSS.
+            </div>
+        </div>
+
+        <div class="projeto">
+            <a target="_blank" href="https://things-to-do-pied.vercel.app">
+                <span class="cartao4">
+                    <div class="caixa_cartoes">
+                        <h2>ThingsToDo</h2>
+                        <p>Clique para ver!</p>
+                    </div>
+                </span>
+            </a>
+            <div class="descricao">
+                Essa é uma aplicação de gerenciamento de tarefas feita em ReactJs. A aplicação tem uma interface simples e foi feita com o foco em aprender mais sobre integração com banco de dados.
+            </div>
+        </div>
+
+    </div>
+    </main>
+
+    <section class="form_container">
+        <div class="main-block">
+            <div class="left-part">
+                <i class="fas fa-envelope"></i>
+                <i class="fas fa-at"></i>
+                <i class="fas fa-mail-bulk"></i>
+            </div>
+            <form action="/">
+                <h1>Entre em contato!</h1>
+                <div class="info">
+                    <input class="fname" type="text" name="name" placeholder="Nome completo">
+                    <input type="text" name="name" placeholder="Email">
+                    <input type="text" name="name" placeholder="Telefone">
+                </div>
+                <p>Mensagem</p>
+                <div>
+                    <textarea rows="4"></textarea>
+                </div>
+                <button type="submit" href="/">Enviar</button>
+            </form>
+        </div>
+	</section>
+    
     <footer>&copy Matheus Souza - Todos os direitos reservados</footer>
 </body>
 </html>

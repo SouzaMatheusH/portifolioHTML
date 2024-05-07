@@ -1,0 +1,172 @@
+/* CONTAINER - PROJETOS */
+.projetos-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+    margin-bottom: 10em;
+    padding-top: 5%;
+}
+.projeto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.projeto a {
+    text-decoration: none;
+    color: white;
+}
+.cartao {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90a955;
+    background-image: url(/imgs/calculadora_projeto.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.cartao2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90a955;
+    background-image: url(/imgs/PPT_projeto.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.cartao3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90a955;
+    background-image: url(/imgs/Bolinha_projeto.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.cartao4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90a955;
+    background-image: url(/imgs/ThingsToDo_projeto.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.cartao5 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90a955;
+    background-image: url(/imgs/Cronometro_projeto.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.descricao {
+    width: 40%;
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+}
+.caixa_cartoes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.caixa_cartoes::before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #ffffff;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.caixa_cartoes h2 {
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+.caixa_cartoes p{
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+.cartao:hover, .cartao2:hover, .cartao3:hover, .cartao4:hover, .cartao5:hover {
+    filter: unset;
+}
+.cartao:hover > .caixa_cartoes::before,
+.cartao2:hover > .caixa_cartoes::before,
+.cartao3:hover > .caixa_cartoes::before,
+.cartao4:hover > .caixa_cartoes::before,
+.cartao5:hover > .caixa_cartoes::before {
+    height: 275px;
+    width: 275px;
+    opacity: 1;
+}
+.cartao:hover > .caixa_cartoes p,
+.cartao2:hover > .caixa_cartoes p,
+.cartao3:hover > .caixa_cartoes p,
+.cartao4:hover > .caixa_cartoes p,
+.cartao5:hover > .caixa_cartoes p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}

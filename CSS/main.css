@@ -1,0 +1,51 @@
+main {
+    width: 100%;
+    height: 110vh;
+    padding-top: 15em;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_content {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.main_content h1 {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-family: "Source Code Pro", monospace;
+}
+
+.main_text {
+    height: 4em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_text img {
+    width: 10em;
+}
+
+.main_text h1 {
+    font-size: 3em;
+}
+
+.main_text p {
+    font-size: 1.5em;
+    margin-bottom: 3em;
+}
+
+.device_images {
+    width: 60%;
+
+    z-index: 1;
+}
